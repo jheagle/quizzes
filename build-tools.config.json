@@ -1,0 +1,36 @@
+{
+  "browser": {
+    "enabled": true,
+    "name": "quizzes"
+  },
+  "dist": {
+    "main": "dist/main",
+    "from": "assets/js/**/!(*.test).js",
+    "to": "dist"
+  },
+  "images": {
+    "enabled": false
+  },
+  "readme": {
+    "from": [
+      "assets/js/**/!(*.test).js"
+    ]
+  },
+  "sass": {
+    "enabled": true,
+    "from": "assets/sass/**/*.+(scss|sass)",
+    "path": "assets/sass",
+    "to": "browser/css"
+  },
+  "srcPath": "src",
+  "test": {
+    "options": {
+      "passWithNoTests": true,
+      "testPathIgnorePatterns": [
+        "/node_modules"
+      ]
+    },
+    "path": "assets/js",
+    "watch": "assets/js/**/*.js"
+  }
+}
