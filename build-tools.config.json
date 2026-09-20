@@ -22,7 +22,7 @@
     "path": "assets/sass",
     "to": "browser/css"
   },
-  "srcPath": "src",
+  "srcPath": "assets",
   "test": {
     "options": {
       "passWithNoTests": true,

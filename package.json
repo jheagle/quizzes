@@ -18,15 +18,15 @@
   "license": "GNU",
   "dependencies": {
     "json-dom": "github:jheagle/JSON-DOM",
-    "si-funciona": "^2.2.12"
+    "si-funciona": "^2.3.4"
   },
   "devDependencies": {
-    "browser-sync": "^3.0.3",
-    "del": "^8.0.0",
-    "gulp": "^5.0.0",
+    "browser-sync": "^3.0.4",
+    "del": "^8.0.1",
+    "gulp": "^5.0.1",
     "gulp-autoprefixer": "9.0.0",
     "jest": "^29.7.0",
-    "js-build-tools": "^4.0.7",
+    "js-build-tools": "^5.0.0",
     "signal-exit": "^4.1.0"
   },
   "repository": {
