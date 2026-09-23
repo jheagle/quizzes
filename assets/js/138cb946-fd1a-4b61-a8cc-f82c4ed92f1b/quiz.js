@@ -22,7 +22,7 @@ const quiz = () => [
     div([
       form(null, null, [
         div([
-          fieldset('Thes are radios', [
+          fieldset('These are radios', [
             radios(
               'radio-options',
               [
@@ -74,7 +74,7 @@ const quiz = () => [
               ]
             )
           ]),
-          fieldset('Three radios', [
+          fieldset('Three more radios', [
             radios(
               'yes-maybe-no',
               [
