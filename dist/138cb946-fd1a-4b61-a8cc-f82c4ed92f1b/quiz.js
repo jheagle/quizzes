@@ -14,7 +14,7 @@ import nav from '../components/nav.js'
  * Generates a menu with the provided index as the currently selected item.
  * @returns {DomItem}
  */
-const quiz = () => [header([nav()]), main([div([form(null, null, [div([fieldset('Thes are radios', [radios('radio-options', [{
+const quiz = () => [header([nav()]), main([div([form(null, null, [div([fieldset('These are radios', [radios('radio-options', [{
   label: 'Never',
   id: 'never',
   value: 'never'
@@ -50,7 +50,7 @@ const quiz = () => [header([nav()]), main([div([form(null, null, [div([fieldset(
   label: 'Daily',
   id: 'daily',
   value: 'daily'
-}])]), fieldset('Three radios', [radios('yes-maybe-no', [{
+}])]), fieldset('Three more radios', [radios('yes-maybe-no', [{
   label: 'Yes',
   id: 'yes',
   value: 'yes'
