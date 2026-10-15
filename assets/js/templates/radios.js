@@ -1,6 +1,5 @@
-import radio from '../components/radio.js'
-import div from '../components/div.js'
-import label from '../components/label.js'
+/* global jsonDomComponents */
+const { radio, div, label } = jsonDomComponents
 
 const radios = (name = '', options = {}, className = '', attributes = {}) => {
   const radioGroup = []
