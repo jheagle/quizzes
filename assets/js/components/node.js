@@ -1,3 +1,4 @@
+/* global jsonDom */
 /**
  * Create the template of a DomItem
  * @param {string} nodeName

@@ -8,6 +8,12 @@
     "from": "assets/js/**/!(*.test).js",
     "to": "dist"
   },
+  "docs": {
+    "enabled": true,
+    "from": "assets/js",
+    "index": "MAIN.md",
+    "to": "../joshuaheagle.local/quizzes/docs"
+  },
   "images": {
     "enabled": false
   },
