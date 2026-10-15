@@ -1,11 +1,11 @@
-import element from './element.js'
+import element from './element.js';
 const form = (action = '', method = '', children = [], className = null, attributes = {}) => {
   if (action) {
-    attributes.action = action
+    attributes.action = action;
   }
   if (method) {
-    attributes.method = method
+    attributes.method = method;
   }
-  return element('form', children, className, attributes)
-}
-export default form
+  return element('form', children, className, attributes);
+};
+export default form;

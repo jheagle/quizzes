@@ -11,5 +11,5 @@ const node = (nodeName, nodeValue, children = [], attributes = {}) => jsonDom.cr
   nodeValue,
   attributes,
   children
-})
-export default node
+});
+export default node;

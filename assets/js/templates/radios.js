@@ -3,7 +3,7 @@ import div from '../components/div.js'
 import label from '../components/label.js'
 
 const radios = (name = '', options = {}, className = '', attributes = {}) => {
-  let radioGroup = []
+  const radioGroup = []
   for (const option of options) {
     if (!option?.attributes) {
       option.attributes = {}

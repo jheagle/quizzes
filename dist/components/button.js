@@ -1,9 +1,9 @@
-import input from './input.js'
+import input from './input.js';
 const button = (name = '', label = '', children = [], className = null, attributes = {}) => {
-  attributes.value = label
+  attributes.value = label;
   if (name) {
-    attributes.name = name
+    attributes.name = name;
   }
-  return input('button', name, null, children, className, attributes)
-}
-export default button
+  return input('button', name, null, children, className, attributes);
+};
+export default button;
