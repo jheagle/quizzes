@@ -20,6 +20,7 @@
   "license": "GNU",
   "dependencies": {
     "json-dom": "github:jheagle/JSON-DOM",
+    "json-dom-components": "github:jheagle/json-dom-components",
     "si-funciona": "^2.7.3"
   },
   "devDependencies": {

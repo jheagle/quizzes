@@ -1,14 +1,7 @@
-import form from '../components/form.js'
+/* global jsonDomComponents */
 import radios from '../templates/radios.js'
-import textArea from '../components/textArea.js'
-import div from '../components/div.js'
-import label from '../components/label.js'
-import fieldset from '../components/fieldset.js'
-import main from '../components/main.js'
-import submit from '../components/submit.js'
-import footer from '../components/footer.js'
-import header from '../components/header.js'
-import nav from '../components/nav.js'
+
+const { form, textArea, div, label, fieldset, main, submit, footer, header, nav } = jsonDomComponents
 
 /**
  * Generates a menu with the provided index as the currently selected item.
