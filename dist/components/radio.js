@@ -1,12 +1,12 @@
-import input from './input.js'
+import input from './input.js';
 const radio = (name = '', value = '', checked = false, children = [], className = null, attributes = {}) => {
-  attributes.value = value
+  attributes.value = value;
   if (name) {
-    attributes.name = name
+    attributes.name = name;
   }
   if (checked) {
-    attributes.checked = true
+    attributes.checked = true;
   }
-  return input('radio', name, null, children, className, attributes)
-}
-export default radio
+  return input('radio', name, null, children, className, attributes);
+};
+export default radio;

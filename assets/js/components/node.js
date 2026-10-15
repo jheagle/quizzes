@@ -8,10 +8,10 @@
  */
 const node = (nodeName, nodeValue, children = [], attributes = {}) => jsonDom.createDomItem(
   {
-    nodeName: nodeName,
-    nodeValue: nodeValue,
-    attributes: attributes,
-    children: children
+    nodeName,
+    nodeValue,
+    attributes,
+    children
   }
 )
 export default node

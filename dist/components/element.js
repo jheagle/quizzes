@@ -1,4 +1,4 @@
-import node from './node.js'
+import node from './node.js';
 
 /**
  * Create the template of a DomItem
@@ -10,8 +10,8 @@ import node from './node.js'
  */
 const element = (nodeName, children = [], className = null, attributes = {}) => {
   if (className !== null) {
-    attributes.className = className
+    attributes.className = className;
   }
-  return node(nodeName, null, children, attributes)
-}
-export default element
+  return node(nodeName, null, children, attributes);
+};
+export default element;
