@@ -22,8 +22,8 @@ const plugins = () => {
 module.exports = plugins;
 },{}],2:[function(require,module,exports){
 const plugins = require('./general/plugins.js');
-const jsonDom = require('json-dom').default;
-const jsonDomComponents = require('json-dom-components').default;
+const jsonDom = require('json-dom');
+const jsonDomComponents = require('json-dom-components');
 plugins();
 window.jsonDom = jsonDom;
 window.jsonDomComponents = jsonDomComponents;
@@ -25253,9 +25253,6 @@ var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
     "default": mod
   };
 };
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
 /**
  * A minimal component library on json-dom: base HTML element factories plus richer interactive components.
  */
@@ -25273,7 +25270,7 @@ const jsonDomComponents = {
   ...index_1.default
 };
 root.jsonDomComponents = jsonDomComponents;
-exports.default = jsonDomComponents;
+module.exports = jsonDomComponents;
 },{"./clearableInput/index":712,"./components/index":723,"./typeahead/index":751,"core-js/stable":709}],748:[function(require,module,exports){
 "use strict";
 
