@@ -12,6 +12,7 @@
     "enabled": true,
     "from": "assets/js",
     "index": "MAIN.md",
+    "title": "Quizzes",
     "to": "../joshuaheagle.local/quizzes/docs"
   },
   "images": {
