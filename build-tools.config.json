@@ -9,6 +9,7 @@
     "to": "dist"
   },
   "docs": {
+    "basePath": "/quizzes/docs/",
     "enabled": true,
     "from": "assets/js",
     "index": "MAIN.md",
