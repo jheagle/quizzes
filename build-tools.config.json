@@ -9,6 +9,7 @@
     "to": "dist"
   },
   "docs": {
+    "bodyHtml": "<script data-goatcounter=\"https://joshuaheagle.goatcounter.com/count\" async src=\"//gc.zgo.at/count.js\"></script>",
     "basePath": "/quizzes/docs/",
     "enabled": true,
     "from": "assets/js",
