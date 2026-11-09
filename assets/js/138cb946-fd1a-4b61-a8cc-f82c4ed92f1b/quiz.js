@@ -1,16 +1,13 @@
 /* global jsonDomComponents */
 import radios from '../templates/radios.js'
 
-const { form, textArea, div, label, fieldset, main, submit, footer, header, nav } = jsonDomComponents
+const { form, textArea, div, label, fieldset, main, submit, footer } = jsonDomComponents
 
 /**
  * Generates a menu with the provided index as the currently selected item.
  * @returns {DomItem}
  */
 const quiz = () => [
-  header([
-    nav()
-  ]),
   main([
     div([
       form(null, null, [
@@ -107,8 +104,8 @@ const quiz = () => [
                 ]
               ),
               div([
-                label('Provide any additional explanation if you want.'),
-                textArea('additional-context'),
+                label('Provide any additional explanation if you want.', 'additional-context'),
+                textArea('additional-context', [], undefined, { id: 'additional-context' }),
               ]),
             ]),
           ], 'follow-up', { id: 'follow-up' }),
