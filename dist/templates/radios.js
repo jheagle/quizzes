@@ -1,9 +1,9 @@
-/* global jsonDomComponents */
+/* global treeloomComponents */
 const {
   radio,
   div,
   label
-} = jsonDomComponents;
+} = treeloomComponents;
 const radios = (name = '', options = {}, className = '', attributes = {}) => {
   const radioGroup = [];
   for (const option of options) {

@@ -14,14 +14,14 @@
 
       const mainForm = form()
       console.log(mainForm)
-      const documentItem = jsonDom.documentItem
-      jsonDom.updateDomItems(documentItem)
+      const documentItem = treeloom.documentItem
+      treeloom.updateDomItems(documentItem)
       // Set the form as the body contents
       documentItem.body.children = mainForm
       // Update the body child node list to include the form
-      jsonDom.updateChildNodes(documentItem.body)
+      treeloom.updateChildNodes(documentItem.body)
       // Update the form to generate the elements
-      jsonDom.updateElements(documentItem.body)
+      treeloom.updateElements(documentItem.body)
     </script>
 </head>
 <body>
