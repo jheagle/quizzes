@@ -1,7 +1,7 @@
-/* global jsonDomComponents */
+/* global treeloomComponents */
 import radios from '../templates/radios.js'
 
-const { form, textArea, div, label, fieldset, main, submit, footer } = jsonDomComponents
+const { form, textArea, div, label, fieldset, main, submit, footer } = treeloomComponents
 
 /**
  * Generates a menu with the provided index as the currently selected item.

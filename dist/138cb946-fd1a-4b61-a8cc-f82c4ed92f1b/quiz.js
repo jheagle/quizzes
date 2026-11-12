@@ -1,4 +1,4 @@
-/* global jsonDomComponents */
+/* global treeloomComponents */
 import radios from '../templates/radios.js';
 const {
   form,
@@ -8,16 +8,14 @@ const {
   fieldset,
   main,
   submit,
-  footer,
-  header,
-  nav
-} = jsonDomComponents;
+  footer
+} = treeloomComponents;
 
 /**
  * Generates a menu with the provided index as the currently selected item.
  * @returns {DomItem}
  */
-const quiz = () => [header([nav()]), main([div([form(null, null, [div([fieldset('These are radios', [radios('radio-options', [{
+const quiz = () => [main([div([form(null, null, [div([fieldset('These are radios', [radios('radio-options', [{
   label: 'Never',
   id: 'never',
   value: 'never'
@@ -73,7 +71,9 @@ const quiz = () => [header([nav()]), main([div([form(null, null, [div([fieldset(
   label: 'Other',
   id: 'other',
   value: 'other'
-}]), div([label('Provide any additional explanation if you want.'), textArea('additional-context')])])], 'follow-up', {
+}]), div([label('Provide any additional explanation if you want.', 'additional-context'), textArea('additional-context', [], undefined, {
+  id: 'additional-context'
+})])])], 'follow-up', {
   id: 'follow-up'
 })]), div([submit()], 'form-footer')])], 'form-wrapper')]), footer()];
 export default quiz;

@@ -20,9 +20,9 @@
   "author": "Joshua Heagle",
   "license": "GNU",
   "dependencies": {
-    "json-dom": "github:jheagle/JSON-DOM",
-    "json-dom-components": "github:jheagle/json-dom-components",
-    "si-funciona": "^2.10.0"
+    "si-funciona": "^2.10.0",
+    "treeloom": "^2.0.0",
+    "treeloom-components": "^0.2.0"
   },
   "devDependencies": {
     "@babel/core": "^8.1.0",
@@ -45,7 +45,7 @@
     "gulp",
     "sass",
     "browsersync",
-    "json-dom",
+    "treeloom",
     "portfolio",
     "forms"
   ],
